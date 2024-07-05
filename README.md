@@ -1,4 +1,4 @@
-# ticket-lifecycle
+# Explore osTicket
 
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
