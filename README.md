@@ -28,69 +28,32 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h3 align="center">Intake</h3>
 <p>
-  <h4>User creates a ticket:</h4>
-  <img src="https://i.imgur.com/ewueu9b.png: height="75%" width="100%" alt="Open a Ticket"/>
+  <h4>User opens a ticket</h4>
+  <img src="https://i.imgur.com/MdWRmQx.png" height="50%" width="50%" alt="Open a Ticket"/>
 </p>
-<br />
 <br />
 <h3 align="center">Ticket assignment</h3>
-<br />
 <p>
-  Support agent John Doe logs in (I typed in the wrong password in this screenshot so ignore "access denied"):
+  <h4>Support request is received and reviewed by Lead Support/Queue Manager.</h4>
+  <img src="https://i.imgur.com/vsNptbu.png" height="50%" width="50%" alt="Ticket received"/>
+  <h4>Queue manager determines the severity of the issue and assigns the ticket to a department, an agent, a priority level, and an SLA Plan</h4>
+  <img src="https://i.imgur.com/BKAi3Ux.png" height="50%" width="50%" alt="Ticket assigned"/>
 </p>
-<p>
-  <img src="https://i.imgur.com/21aurqT.png" height="75%" width="100%" alt="Support agent login"/>
-</p>
-<br />
 <br />
 <h3 align="center">Communication</h3>
-<br />
 <p>
-  Agent John sees this is Sev-A emergency ticket and has to reassign ticket to a System Administrator.
+  <h4>Agent receives ticket and posts a response and Ticket Status.</h4>
+  <img src="https://i.imgur.com/pWrDAzN.png" height="50%" width="50%" alt="communication"/>
+  <img src="https://i.imgur.com/zoZ7YMk.png" height="50%" width="50%" alt="Communication thread"/>
 </p>
-<p>
-  He makes sure to leave a proper message:
-</p>
-<p>
-  <img src="https://i.imgur.com/wVucqKf.png" height="75%" width="100%" alt="Communication"/>
-</p>
-<br />
-<br />
-<h3 align="center">Working the issue</h3>
-<br />
-<p>
-  System Administrator agent Jane Doe logs in:
-</p>
-<p>
-  <img src="https://i.imgur.com/H5gmdbs.png" height="75%" width="100%" alt="Sys admin agent login"/>
-</p>
-<p>
-  Agent Jane works the issue and communicates back to agent John.
-</p>
-<p>
-  She also makes sure to switch the status of the issue from open to resolved:
-</p>
-<p>
-  <img src="https://i.imgur.com/DYPJufr.png" height="75%" width="100%" alt="Working the issue"/>
-</p>
-<br />
 <br />
 <h3 align="center">Resolution</h3>
-<br />
 <p>
-  Support agent John sees in his portal that System Administrator agent Jane has left him a message and that the ticket is now closed:>
-</p>
-<p>
-  <img src="https://i.imgur.com/kRpUysm.png" height="75%" width="100%" alt="Working the issue"/>
+  <h4>Agent will resolve ticket based on company guidelines and SLA Plan. When a ticket is resolved, the agent will change the "Ticket Status" to resolved.</h4>
+  <img src="https://i.imgur.com/eJVLdrC.png" height="50%" width="50%" alt="ticket resolved"/>
 </p>
 <br />
-<br />
 <p>
-  And there you have it. This was just a very simple scenario of the creation of a ticket by a user, assignment and communication of a ticket between agents, and ultimately it's resolution.
+  This concludes the tutorial on the lifecycle of tickets on the osTicket system. In this tutorial you saw the creation of IT tickets, their escalation, their re-assignments to agents and departments, and their resolutions. You also saw how communication is established between the agents and originator in the ticketing system. I hope that you gained some insight on the workings and lifecycle of tickets in the osTicket system. Thank you for stopping by and checking out this tutorial. Have a wonderful day!
 </p>
-<p>
-  There many other scenarios that can happen during the handling of a ticket. Sometimes a ticket has to be reassigned to a different department. Other times it's priority needs to be escalated. Or sometimes it needs to be both reassigned and escalated.
-</p>
-<p>
-  I hope this tutorial helps you understand what can typically go on behind the scenes of a help desk department. During any given day, help desk agents can have anywere between just 10 tickets all the way up to hundreds of tickets in their pipeline. So if this is something you'd like to do, just keep that in mind.
-</p>
+
